@@ -1,0 +1,130 @@
+/* login */
+
+
+/* 块区域 */
+
+div#log-title,
+div#log-form,
+div#log-footer {
+    color: rgb(4, 117, 74);
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+/* 标题区域的样式 */
+
+div#log-title img {
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+/* 登录表单区域 */
+
+div#log-form,
+div#nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(142, 212, 212);
+    border: 3px solid rgb(113, 214, 175);
+    border-radius: 3px;
+}
+
+
+/* left */
+
+div#log-form-left {
+    width: 770px;
+}
+
+div#log-form-left>img {
+    width: 98%;
+    margin-left: 10px;
+}
+
+
+/* rigth */
+
+div#log-form form {
+    width: 30%;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+div#log-form form h5 {
+    color: #000;
+}
+
+div#log-form-name,
+div#log-form-passwd,
+div#log-form-yanzheng img,
+.log-form-bar,
+div#log-form-submit,
+div#log-form-danger {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px 10px;
+}
+
+div#log-img {
+    border: 1px solid rgb(150, 150, 150);
+    padding: 2px 5%;
+}
+
+div#log-form-img img,
+div#log-form-img img {
+    width: 16px;
+    height: 16px;
+}
+
+div#log-form-name input,
+div#log-form-passwd input {
+    width: 95%;
+}
+
+div#log-form-yanzheng img {
+    width: 260px;
+}
+
+.log-form-bar {
+    width: 260px;
+    height: 28px;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 3px;
+    font-size: 80%;
+}
+
+div#log-form-submit input {
+    width: 280px;
+    height: 28px;
+    background-color: rgb(15, 90, 38);
+    color: white;
+    border-radius: 5px;
+}
+
+div#log-form-line {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    margin: 0 10px 10px;
+}
+
+div#log-form-danger {
+    background-color: #fdd4db;
+    border: 1px solid rgb(206, 123, 123);
+    font-size: 80%;
+    margin: auto auto 40px;
+    width: 260px;
+}
+
+
+/* 版权区域 */
+
+div#log-footer {
+    text-align: center;
+    line-height: 40px;
+    font-size: 70%;
+}

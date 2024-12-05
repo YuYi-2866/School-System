@@ -1,0 +1,237 @@
+/* ttask */
+
+/* 设置全部布局区域的统一样式 */
+
+div#logo,
+div#welcome,
+div#nav,
+div#content,
+div#copyright {
+  width: 1080px;
+  min-height: auto;
+  border: 1px solid rgb(113, 214, 175);
+  margin: 10px auto;
+}
+
+/* logo区域 */
+
+div#logo img {
+  width: 248px;
+  height: 74px;
+}
+
+div#logo a {
+  font-size: 30px;
+  font-style: italic;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+div#logo {
+  display: flex;
+  align-items: center;
+}
+
+/* 欢迎信息区域 */
+
+div#welcome {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid rgb(188, 219, 207);
+}
+
+div#welcome img {
+  margin-left: 20px;
+  width: 25px;
+  height: 25px;
+}
+
+div#welcome a {
+  text-decoration: none;
+}
+
+/* 横向导航栏 */
+
+div#nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(142, 212, 212);
+  border: 3px solid rgb(113, 214, 175);
+  border-radius: 3px;
+}
+
+div#nav ul li,
+div#nav ul li a {
+  display: inline-block;
+}
+
+div#nav ul li a {
+  padding: 1px 10px;
+  border-right: 1px dotted #626262;
+  text-decoration: none;
+}
+
+div#nav ul li a:hover {
+  background-color: rgb(140, 177, 245);
+}
+
+ul#menu {
+  position: relative;
+}
+
+ul#menu li {
+  position: absolute;
+}
+
+ul#menu a {
+  display: inline-block;
+}
+
+/* 内容区域 */
+
+#content div {
+  display: block;
+  flex-wrap: wrap;
+  width: 1080px;
+  padding: 0 0 8px 10px;
+}
+
+#content div p {
+  font-size: 25px;
+  height: 10px;
+  font-weight: bold;
+}
+
+#content div select {
+  border-radius: 1px;
+  background-color: rgb(172, 184, 238);
+}
+
+#content div input {
+  width: 80px;
+  margin-left: 8px;
+  border-radius: 0;
+  background-color: rgb(98, 148, 240);
+}
+
+#content-location {
+  margin-top: 20px;
+}
+
+/* EXCEL */
+
+table#Excel-class,
+table#Excel-class1,
+table#Course-information,
+table#te-userNewPwd {
+  margin: auto auto 20px auto;
+  width: 1000px;
+  border: 2px solid rgb(98, 148, 240);
+}
+
+table#Gradesheet {
+  margin: auto auto 20px auto;
+  width: 1060px;
+  border: 2px solid rgb(98, 148, 240);
+  text-align: center;
+}
+
+table#Excel-class tr td,
+table#Excel-class1 tr td,
+table#te-userNewPwd tr td {
+  text-align: center;
+  border: 1px solid rgb(113, 214, 175);
+}
+
+table#Gradesheet tr td,
+table#Course-information tr td {
+  border: 1px solid rgb(113, 214, 175);
+  height: 28px;
+}
+
+table#Excel-class tr:first-child,
+table#Excel-class1 tr:first-child {
+  height: 40px;
+  font-weight: bold;
+}
+
+table#Excel-class tr td:first-child {
+  width: 20%;
+}
+
+table#Excel-class tr td:nth-child(2),
+table#Excel-class tr td:nth-child(8),
+table#Gradesheet tr td:nth-child(5),
+table#Gradesheet tr td:nth-child(6),
+table#Gradesheet tr td:nth-child(7),
+table#Gradesheet tr td:nth-child(8),
+table#Gradesheet tr td:nth-child(9) {
+  width: 11%;
+}
+
+table#Excel-class tr td:nth-child(3) {
+  width: 17%;
+}
+
+table#Excel-class tr td:nth-child(4) {
+  width: 13%;
+}
+
+table#Excel-class tr td:nth-child(5),
+table#Excel-class tr td:nth-child(6),
+table#Excel-class tr td:nth-child(7) {
+  width: 7%;
+}
+
+table#Excel-class1 tr td:first-child {
+  width: 15%;
+}
+
+table#Excel-class1 tr td:first-child(2) {
+  width: 25%;
+}
+
+table#Excel-class1 tr td:first-child(3),
+table#te-userNewPwd tr td:first-child {
+  width: 20%;
+}
+
+table#Excel-class1 tr td:first-child(4) {
+  width: 15%;
+}
+
+table#Excel-class1 tr td:first-child(5) {
+  width: 25%;
+}
+
+#Course-information tr td input {
+  width: 30px;
+}
+
+#submit td input {
+  width: 80px;
+  margin: 0 5px 0 5px;
+  background-color: rgb(108, 199, 179);
+  color: white;
+}
+
+div#submission input {
+  margin: auto 1px auto auto;
+  height: 28px;
+}
+
+/* 版权 */
+div#log-footer {
+  text-align: center;
+  line-height: 40px;
+  font-size: 70%;
+}
+
+div#log-title,
+div#log-form,
+div#log-footer {
+  color: rgb(4, 117, 74);
+  width: 1080px;
+  margin: 0 auto;
+}

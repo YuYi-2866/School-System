@@ -1,0 +1,57 @@
+div#log-title,
+div#log-form-all,
+div#log-form,
+div#log-footer {
+    color: rgb(25, 60, 46);
+    width: 1080px;
+    margin: 0 auto;
+}
+
+div#log-title img {
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+div#log-form {
+    background-color: rgb(142, 212, 212, 0.8);
+    border: 3px solid rgb(113, 214, 175);
+    width: 400px;
+    height: 300px;
+    margin: 20px 20px 20px auto;
+}
+
+div#log-form div div {
+    margin-top: 5px;
+    height: 30px;
+}
+
+#log-form-name,
+#log-form-passwd,
+#log-form-shenfen,
+#log-form-line,
+#log-form-submit {
+    width: 360px;
+    margin: auto 20px auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#log-form-name,
+#log-form-passwd,
+#log-form-shenfen {
+    justify-content: center;
+    align-items: center;
+}
+
+.log-form-text {
+    width: 65px;
+}
+
+/* 版权区域 */
+
+div#log-footer {
+    text-align: center;
+    line-height: 40px;
+    font-size: 70%;
+}
