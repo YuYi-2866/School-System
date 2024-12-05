@@ -1,0 +1,21 @@
+{
+    "name": "zhengxf/edu144",
+    "description": "这是一个高校教务管理系统。",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Zhengxf\\Edu144\\": "src/",
+            "edu\\error\\": "Core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zheng Xinfeng",
+            "email": "2771226765@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-master"
+    }
+}
